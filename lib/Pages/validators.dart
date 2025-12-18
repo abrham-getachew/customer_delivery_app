@@ -284,7 +284,7 @@ class _EmailFieldValidationState extends State<EmailFieldValidation> {
               child: Text(
                 _errorMessage!,
                 style: TextStyle(
-                  color: Colors.red, // Red color for the error message
+                  color: Colors.red, // Red color for the error messages
                   fontSize: 14,
                 ),
               ),
