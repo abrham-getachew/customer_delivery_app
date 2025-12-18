@@ -14,7 +14,7 @@ import 'package:get/get_core/src/get_main.dart';
 void main() {
   //WidgetsFlutterBinding.ensureInitialized();
 
-  // Initialize screen dimensions
+  // Initialize screens dimension
  // ResponsiveVariables.initDimensions();
   runApp(
 
