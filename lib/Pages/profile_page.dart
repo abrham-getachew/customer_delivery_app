@@ -18,8 +18,8 @@ class SettingsPage extends StatelessWidget {
       cancelBtnText: 'Cancel',
       widget: ConstrainedBox(
         constraints: BoxConstraints(
-          maxHeight: MediaQuery.of(context).size.height * 0.8, // Limit height to 80% of screen
-          maxWidth: MediaQuery.of(context).size.width * 0.9, // Limit width to 90% of screen
+          maxHeight: MediaQuery.of(context).size.height * 0.8, // Limit height to 80% of screens
+          maxWidth: MediaQuery.of(context).size.width * 0.9, // Limit width to 90% of screens
         ),
         child: SingleChildScrollView(
           child: Column(
