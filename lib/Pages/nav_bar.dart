@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class BottomNavBar extends StatefulWidget {
-  final Function(int) onItemTapped; // Callback to handle item taps
+  final Function(int) onItemTapped; // Callback to handle item tap
   final int currentIndex; // Track the selected index
 
   const BottomNavBar({
